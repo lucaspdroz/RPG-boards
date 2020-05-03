@@ -25,7 +25,7 @@ You can see the design in
   * only React (create-react-app)
   * firebase
   * react-router
-  * Zeit.co (deploy platform)
+  * Vercel.co (deploy platform)
   
 * features:
   * Create Post with image uploaded image
@@ -55,7 +55,7 @@ Your app is ready to be deployed!
 
 ## Applyed Techonologies
  - [Firebase](https://firebase.google.com/)
- - [Zeit.co](https://zeit.co/)
+ - [Vercel.co](https://Vercel.co/)
 
 ## Theme Colors  
  The Based colors was not randomly chooses, to bring an bold and royalty feel, the color purple was choised because of the throne
