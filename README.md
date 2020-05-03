@@ -34,8 +34,8 @@ You can see the design in
 
 ## Installation
 
-* `git clone git@github.com:lucaspdroz/dxco.git`
-* `cd dxco`
+* `git clone git@github.com:lucaspdroz/RPG-boards.git`
+* `cd RPG-boards`
 * `yarn install`
 * `yarn start`
 * [http://localhost:3000](http://localhost:3000)
