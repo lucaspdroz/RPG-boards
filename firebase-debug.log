@@ -1,0 +1,8 @@
+[debug] [2020-03-10T22:38:29.867Z] ----------------------------------------------------------------------
+[debug] [2020-03-10T22:38:29.869Z] Command:       /home/lucas/.nvm/versions/node/v12.14.1/bin/node /mnt/c/Users/Lucas Pacheco/AppData/Roaming/npm/node_modules/firebase-tools/lib/bin/firebase.js login
+[debug] [2020-03-10T22:38:29.869Z] CLI Version:   7.1.1
+[debug] [2020-03-10T22:38:29.869Z] Platform:      linux
+[debug] [2020-03-10T22:38:29.869Z] Node Version:  v12.14.1
+[debug] [2020-03-10T22:38:29.870Z] Time:          Tue Mar 10 2020 19:38:29 GMT-0300 (Brasilia Standard Time)
+[debug] [2020-03-10T22:38:29.870Z] ----------------------------------------------------------------------
+[debug] 
