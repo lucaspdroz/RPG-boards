@@ -76,13 +76,14 @@ class Create extends Component {
           <div className="panel-body">
             <form onSubmit={this.onSubmit}>
               <h3 className="panel-title">
-                ADD POST
+                Criar personagem
             </h3>
               <div className="form-group">
-                <label htmlFor="title">Title:</label>
-                <input type="text" className="form-control" name="title" value={title} onChange={this.onChange} placeholder="Title" required />
+                <label htmlFor="title">personagem:</label>
+                <input type="text" className="form-control" name="title" value={title} onChange={this.onChange} placeholder="Nome do personagem" required />
               </div>
-
+              <label htmlFor="author">Player:</label>
+                <input type="text" className="form-control" name="author" value={author} onChange={this.onChange} placeholder="Player" />
               <div className="points">
                 <div className="form-group">
                   <label htmlFor="title">ST:</label>
@@ -122,8 +123,7 @@ class Create extends Component {
                 <textarea className="form-control" name="description" onChange={this.onChange} placeholder="Description" cols="80" rows="3" value={description}></textarea>
               </div>
               <div className="form-group">
-                <label htmlFor="author">Player:</label>
-                <input type="text" className="form-control" name="author" value={author} onChange={this.onChange} placeholder="Player" />
+             
                 <ImageUpload onUploadImage={this.onUploadImage} />
               </div>
               <button type="submit" className="btn btn-success">Submit</button>
