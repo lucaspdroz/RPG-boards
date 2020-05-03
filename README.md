@@ -3,7 +3,7 @@
 ![Devtoilet logo](src/assets/Logo-black.svg)
 [link](https://rpg-boards-gniknv2g6.now.sh)
 
-# Skill test to DX.CO
+# Create React-App
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 Below you will find some information on how to perform common tasks.
@@ -17,7 +17,7 @@ The Devtoilet App is for sharing information about development, design, or patte
 ## Design
 
 You can see the design in
-[Figma](https://www.figma.com/file/rCV3RoP63R9EePo19Ne6dM/DEVTOILET?node-id=0%3A1)
+[Figma](https://www.figma.com/file/d5BTJ3dh6Sx5Kuq7Dxe37A/RPG?node-id=0%3A1)
 
 
 ## Features
