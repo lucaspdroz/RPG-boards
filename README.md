@@ -1,7 +1,7 @@
 
 
 ![Devtoilet logo](src/assets/Logo-black.svg)
-[link](https://rpg-boards-gniknv2g6.now.sh)
+[link](https://rpg-boards.now.sh/)
 
 # Create React-App
 
