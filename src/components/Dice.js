@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 
 export default function Dice() {
     const [face, setFace] = useState(6);
+    const [total, setTotal] = useState("Rodar 3x dados:");
     let result = 0;
     let a;
 
@@ -14,16 +15,15 @@ export default function Dice() {
     }
 
     function rollThreeTimes() {
-        console.log(`${rollDice()} + ${rollDice()} + ${rollDice()} = ${result}`);
+        setTotal(`${rollDice()} + ${rollDice()} + ${rollDice()} = ${result}`);
         a = 0;
         result = 0;
     }
 
     return (
         <div>
-            <label htmlFor="author">DICE:</label>
-            <input type="number" className="form-control" name="author" value={face} onChange={e => setFace(e.target.value)} placeholder="Player" />
-            <h2>Rodar 3x dados:</h2>
+            <label htmlFor="author">{total}</label>
+            <input type="number" className="form-control" name="author" value={face} onChange={e => setFace(e.target.value)} placeholder="Player" min="1" max="100"/><br></br>
             <button onClick={rollThreeTimes}>Rodar 3x D6</button>
         </div>
     )

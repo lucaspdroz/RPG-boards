@@ -67,7 +67,9 @@ class App extends Component {
             </ul>
           </div>
         </div>
-        <Dice></Dice>
+        <div className="side-menu">
+          <Dice></Dice>
+        </div>
       </div>
     );
   }
