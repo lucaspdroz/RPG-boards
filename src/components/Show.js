@@ -3,6 +3,7 @@ import firebase from '../Firebase';
 import { Link } from 'react-router-dom';
 import arrow from '../assets/Arrow.svg';
 
+
 class Show extends Component {
   constructor(props) {
     super(props);
@@ -64,6 +65,7 @@ class Show extends Component {
                 <p className="points">WILL: &nbsp;&nbsp;&nbsp;{this.state.board.will}</p>
                 <p className="points">PER:  &nbsp;&nbsp;&nbsp;{this.state.board.per}</p>
                 <p className="points">FP:   &nbsp;&nbsp;&nbsp;{this.state.board.fp}</p>
+                
               </li>
             </ul>
           </div>

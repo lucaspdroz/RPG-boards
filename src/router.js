@@ -4,13 +4,13 @@ import Edit from './components/Edit';
 import Create from './components/Create';
 import Show from './components/Show';
 import Header from './components/Header';
-import Upload from './screens/Upload';
+import InitialPage from './screens/InitialPage';
 
 export default () => (
     <Router>
         <div>
             <Header></Header>
-            <Route exact path='/' component={Upload} />
+            <Route exact path='/' component={InitialPage} />
             <Route path='/edit/:id' component={Edit} />
             <Route path='/create' component={Create} />
             <Route path='/show/:id' component={Show} />

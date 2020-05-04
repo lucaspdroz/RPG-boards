@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import Dice from '../components/Dice';
 import '../App.css';
 import firebase from '../Firebase';
 
@@ -66,6 +67,7 @@ class App extends Component {
             </ul>
           </div>
         </div>
+        <Dice></Dice>
       </div>
     );
   }
