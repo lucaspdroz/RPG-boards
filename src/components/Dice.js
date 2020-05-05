@@ -24,7 +24,7 @@ export default function Dice() {
         <div>
             <label htmlFor="author">{total}</label>
             <input type="number" className="form-control" name="author" value={face} onChange={e => setFace(e.target.value)} placeholder="Player" min="1" max="100"/><br></br>
-            <button onClick={rollThreeTimes}>Rodar 3x D6</button>
+            <button className="btn btn-success" onClick={rollThreeTimes}>Rodar 3x D6</button>
         </div>
     )
 }

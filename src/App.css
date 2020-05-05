@@ -313,7 +313,7 @@ input[type="file"] {
   .side-menu {
     display: flex;
     position: fixed;
-    top: 93%;
+    top: 87%;
     bottom: 0;
     right: 0;
     text-align: center;
@@ -322,5 +322,3 @@ input[type="file"] {
     justify-content: center;
   }
 }
-
-.points p {}
