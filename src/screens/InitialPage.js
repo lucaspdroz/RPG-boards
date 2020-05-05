@@ -53,13 +53,16 @@ class App extends Component {
                     <div className="card-content">
                       <div className="title">{board.title}</div>
                       <div>{board.author}</div>
-                      <div>ST: {board.st}</div>
-                      <div>DX: {board.dx}</div>
-                      <div>IQ: {board.iq}</div>
-                      <div>HT: {board.ht}</div>
-                      <div>HP:   {board.hp}</div>
-                      <div>WILL: {board.will}</div>
-                      <div>PER:  {board.per}</div>
+                      <div className="show-status">
+                        <div className="points">ST: <div>{board.st}</div></div>
+                        <div className="points">DX: <div>{board.dx}</div></div>
+                        <div className="points">IQ: <div>{board.iq}</div></div>
+                        <div className="points">HT: <div>{board.ht}</div></div>
+                        <div className="points">HP: <div>{board.hp}</div></div>
+                        <div className="points">WILL<div>{board.will}</div></div>
+                        <div className="points">PER:<div>{board.per}</div></div>
+                        <div className="points">FP: <div>{board.fp}</div></div>
+                      </div>
                     </div>
                   </Link>
                 </li>

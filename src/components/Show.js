@@ -56,16 +56,18 @@ class Show extends Component {
                   {this.state.board.title}
                 </h3>
                 <div className="panel-author">{this.state.board.author}</div>
+                <div className="show-status">
+                  <div className="points">ST: <div>{this.state.board.st}</div></div>
+                  <div className="points">DX: <div>{this.state.board.dx}</div></div>
+                  <div className="points">IQ: <div>{this.state.board.iq}</div></div>
+                  <div className="points">HT: <div>{this.state.board.ht}</div></div>
+                  <div className="points">HP: <div>{this.state.board.hp}</div></div>
+                  <div className="points">WILL<div>{this.state.board.will}</div></div>
+                  <div className="points">PER:<div>{this.state.board.per}</div></div>
+                  <div className="points">FP: <div>{this.state.board.fp}</div></div>
+                </div>
                 <p className="description">{this.state.board.description}</p>
-                <p className="points">ST:   &nbsp;&nbsp;&nbsp;{this.state.board.st}</p>
-                <p className="points">DX:   &nbsp;&nbsp;&nbsp;{this.state.board.dx}</p>
-                <p className="points">IQ:   &nbsp;&nbsp;&nbsp;{this.state.board.iq}</p>
-                <p className="points">HT:   &nbsp;&nbsp;&nbsp;{this.state.board.ht}</p>
-                <p className="points">HP:   &nbsp;&nbsp;&nbsp;{this.state.board.hp}</p>
-                <p className="points">WILL: &nbsp;&nbsp;&nbsp;{this.state.board.will}</p>
-                <p className="points">PER:  &nbsp;&nbsp;&nbsp;{this.state.board.per}</p>
-                <p className="points">FP:   &nbsp;&nbsp;&nbsp;{this.state.board.fp}</p>
-                
+
               </li>
             </ul>
           </div>

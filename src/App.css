@@ -2,7 +2,7 @@
 :root {
   /* Theme */
   --main-color: #342441;
-  --secondary-color: #c495f9;
+  --secondary-color: #777777;
   --white: #fff;
   --black: #000;
   --blue: #007bff;
@@ -10,6 +10,7 @@
   /* extras */
   --header-color: #000;
   --button-color: #fb6161;
+  --ice: #eaeaea;
 }
 
 #root {
@@ -27,9 +28,11 @@
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  background-color: #eaeaea;
-  /* text-align: left; */
   overflow-x: hidden;
+}
+
+.panel-body {
+  background-color: var(--ice);
 }
 
 a {
@@ -119,6 +122,7 @@ ul {
   display: grid;
   margin-left: 50px;
   grid-template-columns: repeat(4, 1fr);
+  height: calc(100vh - 50px);
 }
 
 .table li {
@@ -133,23 +137,21 @@ ul {
 }
 
 .card img {
-  width: 104%;
+  width: 40%;
   border-radius: 10px;
   margin: -2%;
 }
 
 .card-content {
   display: flex;
-  margin: 10px;
+  margin: auto;
+  text-align: center;
   color: var(--black);
   text-transform: capitalize;
   flex-direction: column;
   justify-content: center;
-}
-
-/* .card-content div {
   padding: 10px;
-} */
+}
 
 .title {
   font-weight: bold;
@@ -238,11 +240,19 @@ img {
 .description {
   display: flex;
   margin: auto;
+  margin-top: 50px;
   justify-content: center;
   width: 50%;
-  text-align: justify;
+  text-align: start;
   line-height: 2rem;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
+}
+
+.points {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 200px;
+  margin: auto;
 }
 
 .side-menu {
