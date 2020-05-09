@@ -7,7 +7,7 @@ function Header() {
         <nav className="navbar">
             <Link to="/" className="logo-link"><img src={logo} className="logo" alt="logo" /></Link>
             {/* <input className="searchbar" type="search" placeholder="Search..."></input> */}
-            <h3>Version 0.0.1</h3>
+            <h3>Beta - Version 0.0.1</h3>
         </nav>
     );
 }
