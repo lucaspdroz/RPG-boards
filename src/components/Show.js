@@ -73,7 +73,7 @@ class Show extends Component {
           </div>
           <div className='side-menu'>
             <Link to={`/edit/${this.state.key}`} className="btn btn-success">Edit</Link>&nbsp;
-            <button onClick={this.delete.bind(this, this.state.key)} className="btn">Delete</button>
+            {/* <button onClick={this.delete.bind(this, this.state.key)} className="btn">Delete</button> */}
           </div>
         </div>
       </div>

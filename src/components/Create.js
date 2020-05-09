@@ -87,35 +87,35 @@ class Create extends Component {
               <div className="points">
                 <div className="form-group">
                   <label htmlFor="title">ST:</label>
-                  <input type="number" className="form-control" name="st" value={st} onChange={this.onChange} placeholder="Title" required />
+                  <input type="number" className="form-control" name="st" value={st} onChange={this.onChange} placeholder="Title" required min="0" max="15" />
                 </div>
                 <div className="form-group">
                   <label htmlFor="dx">DX:</label>
-                  <input type="number" className="form-control" name="dx" value={dx} onChange={this.onChange} placeholder="Title" required />
+                  <input type="number" className="form-control" name="dx" value={dx} onChange={this.onChange} placeholder="Title" required min="0" max="15" />
                 </div>
                 <div className="form-group">
                   <label htmlFor="iq">IQ:</label>
-                  <input type="number" className="form-control" name="iq" value={iq} onChange={this.onChange} placeholder="Title" required />
+                  <input type="number" className="form-control" name="iq" value={iq} onChange={this.onChange} placeholder="Title" required min="0" max="15" />
                 </div>
                 <div className="form-group">
                   <label htmlFor="ht">HT:</label>
-                  <input type="number" className="form-control" name="ht" value={ht} onChange={this.onChange} placeholder="Title" required />
+                  <input type="number" className="form-control" name="ht" value={ht} onChange={this.onChange} placeholder="Title" required min="0" max="15" />
                 </div>
                 <div className="form-group">
                   <label htmlFor="hp">HP:</label>
-                  <input type="number" className="form-control" name="hp" value={hp} onChange={this.onChange} placeholder="Title" required />
+                  <input type="number" className="form-control" name="hp" value={hp} onChange={this.onChange} placeholder="Title" required min="0" max="15" />
                 </div>
                 <div className="form-group">
                   <label htmlFor="will">WILL:</label>
-                  <input type="number" className="form-control" name="will" value={will} onChange={this.onChange} placeholder="Title" required />
+                  <input type="number" className="form-control" name="will" value={will} onChange={this.onChange} placeholder="Title" required min="0" max="15" />
                 </div>
                 <div className="form-group">
                   <label htmlFor="per">PER:</label>
-                  <input type="number" className="form-control" name="per" value={per} onChange={this.onChange} placeholder="Title" required />
+                  <input type="number" className="form-control" name="per" value={per} onChange={this.onChange} placeholder="Title" required min="0" max="15" />
                 </div>
                 <div className="form-group">
                   <label htmlFor="fp"> FP:</label>
-                  <input type="number" className="form-control" name="fp" value={fp} onChange={this.onChange} placeholder="Title" required />
+                  <input type="number" className="form-control" name="fp" value={fp} onChange={this.onChange} placeholder="Title" required min="0" max="15" />
                 </div>
               </div>
               <div className="form-group">

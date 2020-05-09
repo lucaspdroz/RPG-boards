@@ -205,7 +205,7 @@ img {
   background-repeat: no-repeat;
   position: fixed;
   right: 4vw;
-  bottom: 6vh;
+  bottom: 14vh;
 }
 
 .searchbar {
@@ -313,7 +313,7 @@ input[type="file"] {
   .side-menu {
     display: flex;
     position: fixed;
-    top: 87%;
+    top: 87vh;
     bottom: 0;
     right: 0;
     text-align: center;
