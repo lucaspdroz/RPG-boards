@@ -271,7 +271,11 @@ img {
 }
 
 .form-control {
-  width: 80%;
+  width: 99%;
+}
+
+.form-group textarea {
+  height: 500px;
 }
 
 input[type="file"] {

@@ -188,7 +188,7 @@ function Edit(props) {
             </div>
             <div className="form-group">
               <label htmlFor="description">Description:</label>
-              <input type="text" className="form-control" name="description" value={inputItems.description} onChange={onChange} placeholder="Description" />
+              <textarea type="text" className="form-control" name="description" value={inputItems.description} onChange={onChange} placeholder="Description" rows="20" cols="100"></textarea>
             </div>
             <div className="form-group">
               <label htmlFor="author">Author:</label>
