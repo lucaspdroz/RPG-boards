@@ -52,7 +52,7 @@ class App extends Component {
                     <img className="card-bg" src={board.url} alt="background post"></img>
                     <div className="card-content">
                       <div className="title">{board.title}</div>
-                      <div>{board.author}</div>
+                      <h4>{board.author}</h4>
                       <div className="show-status">
                         <div className="points">ST: <div>{board.st}</div></div>
                         <div className="points">DX: <div>{board.dx}</div></div>

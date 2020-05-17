@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&Poppins&display=swap');
 :root {
   /* Theme */
   --main-color: #342441;
@@ -39,6 +39,10 @@ a {
   color: var(--blue);
   text-decoration: none;
   background-color: transparent;
+}
+
+h1,h2,h3,h4,h5{
+  font-family: 'Poppins', sans-serif;
 }
 
 .App {
@@ -276,6 +280,7 @@ img {
 
 .form-group textarea {
   height: 500px;
+  font-family: 'Playfair Display', serif;
 }
 
 input[type="file"] {
